@@ -20,7 +20,7 @@ from sklearn.ensemble import RandomForestClassifier
 # ── 1. Download dataset ───────────────────────────────────────────────────────
 URL  = ("https://archive.ics.uci.edu/ml/machine-learning-databases"
         "/heart-disease/processed.cleveland.data")
-FILE = "heart.csv"
+FILE = "Data/heart.csv"
 
 if not os.path.exists(FILE):
     print("Downloading dataset …")
